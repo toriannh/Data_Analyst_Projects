@@ -7,6 +7,7 @@ models:
       (event_date, campaign_id, division). Expected to be empty.
     config:
       materialized: view
+      tags: ["daily"]
     columns:
       - name: event_date
         description: "Date at daily reporting grain."
@@ -23,6 +24,7 @@ models:
       Expected to be empty; validates incremental merge/idempotency.
     config:
       materialized: view
+      tags: ["daily"]
     columns:
       - name: event_id
         description: "Unique event identifier."
@@ -35,6 +37,7 @@ models:
       Makes orphan rate measurable and trendable.
     config:
       materialized: view
+      tags: ["daily"]
     columns:
       - name: event_date
         description: "Event date."

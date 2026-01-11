@@ -34,6 +34,8 @@ models:
 
   - name: fct_email_events_daily
     description: "Daily email performance metrics by event_date + campaign_id (+division if present)."
+    config:
+      tags: ["daily"]
     columns:
       - name: event_date
         data_tests:
@@ -46,6 +48,7 @@ models:
       unique_key: event_id
       incremental_strategy: merge
       on_schema_change: sync_all_columns
+      tags: ["daily"]
     columns:
       - name: event_id
         data_tests:
