@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: raw
+    database: ANALYTICS_DEV
+    schema: RAW
+    tables:
+      - name: accounts
+      - name: leads
+      - name: contacts
+      - name: campaigns
+      - name: campaign_members
+      - name: marketing_cloud_events
+      - name: calendar
+      - name: campaign_daily_metrics
+

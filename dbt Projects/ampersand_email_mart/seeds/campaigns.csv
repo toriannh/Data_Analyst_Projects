@@ -1,0 +1,61 @@
+campaign_id,campaign_name,division,campaign_type,start_date,end_date,status,created_at,updated_at,utm_source,utm_medium,utm_campaign,journey_name
+Z3ZYUr576NAmJMiYB5,South Event 202409,South,Event,2024-09-26,2025-01-14,Completed,2024-08-01 07:24:25,2024-10-28 07:24:25,email,campaign,south_event_202409,Journey South Event
+4A8t9Jk0ll1RSJJOju,Central Promotion 202403,Central,Promotion,2024-03-03,2024-03-22,Planned,2024-03-02 21:42:43,2024-05-12 21:42:43,email,campaign,central_promotion_202403,Journey Central Promotion
+lvvh9tG4woS1U43qgF,North Promotion 202502,North,Promotion,2025-02-06,2025-05-26,In Progress,2024-12-23 16:38:06,2025-03-08 16:38:06,email,campaign,north_promotion_202502,Journey North Promotion
+6pxCFklP2luDJR2Evw,East Drip 202404,East,Drip,2024-04-08,2024-04-29,In Progress,2024-04-01 20:58:50,2024-05-18 20:58:50,email,campaign,east_drip_202404,
+5LcvzlLBp9f9VplB1Z,North Newsletter 202402,North,Newsletter,2024-02-07,2024-04-05,Completed,2023-12-26 08:17:11,2024-04-04 08:17:11,email,campaign,north_newsletter_202402,Journey North Newsletter
+EE9R6f7VZxXJICdlq1,East Newsletter 202402,East,Newsletter,2024-02-08,2024-06-01,Planned,2024-02-02 13:50:54,2024-02-14 13:50:54,email,campaign,east_newsletter_202402,Journey East Newsletter
+czEQwS0dtsjNbtMv2M,North Promotion 202403,North,Promotion,2024-03-16,2024-06-16,Completed,2024-01-25 12:32:58,2024-03-24 12:32:58,email,campaign,north_promotion_202403,Journey North Promotion
+oB3zxU58ueiKdvtze2,East Drip 202409,East,Drip,2024-09-21,2024-11-01,Completed,2024-08-17 03:26:49,2024-11-07 03:26:49,email,campaign,east_drip_202409,Journey East Drip
+tzFhRqj1eQHJyJWWjO,West Drip 202507,West,Drip,2025-07-09,2025-08-27,Completed,2025-06-13 13:24:24,2025-06-24 13:24:24,email,campaign,west_drip_202507,
+QngaMszafovek4SXx6,West Event 202412,West,Event,2024-12-09,2025-01-28,Cancelled,2024-11-18 08:05:53,2025-03-15 08:05:53,email,campaign,west_event_202412,Journey West Event
+Bw50yfneGKl5ujG6f2,Central Product Launch 202509,Central,Product Launch,2025-09-25,2025-10-16,Cancelled,2025-08-01 21:43:17,2025-10-24 21:43:17,email,campaign,central_product_launch_202509,Journey Central Product Launch
+o6OHzuOTUFUBAjdHLD,South Event 202501,South,Event,2025-01-09,2025-03-21,Cancelled,2024-11-20 23:28:17,2024-12-14 23:28:17,email,campaign,south_event_202501,Journey South Event
+ktHrBtPl8NBJVLRXyK,East Newsletter 202403,East,Newsletter,2024-03-25,2024-05-19,Completed,2024-02-07 06:57:40,2024-05-24 06:57:40,email,campaign,east_newsletter_202403,Journey East Newsletter
+sXbdmggxiHGyKA10au,North Promotion 202511,North,Promotion,2025-11-03,2025-12-31,Cancelled,2025-10-15 14:01:18,2025-12-27 14:01:18,email,campaign,north_promotion_202511,Journey North Promotion
+xqeM3BKM0x8s5QhYug,West Newsletter 202508,West,Newsletter,2025-08-28,2025-12-06,Cancelled,2025-07-16 01:30:33,2025-07-29 01:30:33,email,campaign,west_newsletter_202508,Journey West Newsletter
+sskORbbLKzMtcQ5EhG,North Re-engagement 202508,North,Re-engagement,2025-08-26,2025-10-04,Cancelled,2025-07-14 14:51:58,2025-09-03 14:51:58,email,campaign,north_re-engagement_202508,Journey North Re-engagement
+NKUp4BJED1d7EjzQf3,North Drip 202403,North,Drip,2024-03-24,2024-04-20,Cancelled,2024-03-22 21:57:09,2024-05-14 21:57:09,email,campaign,north_drip_202403,Journey North Drip
+Pjy99hz8hGr2Tx5BAc,West Product Launch 202406,West,Product Launch,2024-06-03,2024-08-05,Completed,2024-05-29 03:16:31,2024-07-09 03:16:31,email,campaign,west_product_launch_202406,Journey West Product Launch
+fX3NRI0Xb2Wh2NENDK,Central Drip 202508,Central,Drip,2025-08-01,2025-10-10,In Progress,2025-06-11 12:13:59,2025-07-09 12:13:59,email,campaign,central_drip_202508,Journey Central Drip
+Ora9xUxIe92MDny4AG,West Event 202411,West,Event,2024-11-05,2025-01-26,Completed,2024-10-28 13:20:19,2025-02-16 13:20:19,email,campaign,west_event_202411,Journey West Event
+iMOxZq8iiMaOwnavyY,North Re-engagement 202509,North,Re-engagement,2025-09-02,2025-12-02,In Progress,2025-08-02 08:32:25,2025-10-06 08:32:25,email,campaign,north_re-engagement_202509,Journey North Re-engagement
+0FgtMT4fNxIfPjBD0b,East Promotion 202502,East,Promotion,2025-02-20,2025-03-08,In Progress,2025-02-08 01:06:08,2025-04-03 01:06:08,email,campaign,east_promotion_202502,
+kgqVLVQ98jdJE5YwGx,West Event 202507,West,Event,2025-07-08,2025-08-20,Completed,2025-06-09 20:24:25,2025-10-07 20:24:25,email,campaign,west_event_202507,
+nCA0jTIjHULJ4vO64d,North Drip 202403,North,Drip,2024-03-14,2024-04-28,Planned,2024-01-28 11:21:41,2024-02-19 11:21:41,email,campaign,north_drip_202403,Journey North Drip
+xGUynvEYAako788xe8,North Promotion 202505,North,Promotion,2025-05-06,2025-05-19,Planned,2025-03-23 11:18:36,2025-04-01 11:18:36,email,campaign,north_promotion_202505,Journey North Promotion
+4yTRF1BKXqIVxMZoBL,Central Drip 202407,Central,Drip,2024-07-25,2024-10-29,In Progress,2024-06-24 09:23:25,2024-10-14 09:23:25,email,campaign,central_drip_202407,Journey Central Drip
+T9Zrv8Ypz8oQiJaNY3,West Drip 202408,West,Drip,2024-08-21,2024-09-23,Planned,2024-06-25 10:39:30,2024-07-07 10:39:30,email,campaign,west_drip_202408,
+HMbpyMV6qEEdLLxYCY,Central Product Launch 202502,Central,Product Launch,2025-02-22,2025-06-22,Completed,2025-01-27 04:06:15,2025-04-30 04:06:15,email,campaign,central_product_launch_202502,
+c5crlPrKdfEbfNvv6b,West Newsletter 202409,West,Newsletter,2024-09-29,2025-01-23,Cancelled,2024-09-03 17:06:11,2024-10-12 17:06:11,email,campaign,west_newsletter_202409,Journey West Newsletter
+wjEZFGcE2nq1hOeDKS,West Newsletter 202402,West,Newsletter,2024-02-15,2024-03-31,Planned,2024-01-20 15:55:09,2024-01-29 15:55:09,email,campaign,west_newsletter_202402,
+zCPp3tVTQ8MZmUR1Zu,Central Drip 202501,Central,Drip,2025-01-01,2025-04-19,Planned,2024-12-30 15:13:01,2025-04-03 15:13:01,email,campaign,central_drip_202501,
+8tg65JpR4ZlykSTM98,North Drip 202411,North,Drip,2024-11-02,2025-02-10,Planned,2024-10-22 05:24:32,2025-02-13 05:24:32,email,campaign,north_drip_202411,Journey North Drip
+fbnldpuIX6CRgru0m8,Central Re-engagement 202504,Central,Re-engagement,2025-04-14,2025-08-01,In Progress,2025-03-21 22:47:15,2025-07-02 22:47:15,email,campaign,central_re-engagement_202504,
+mIHoxjTSWipIVRauzo,North Drip 202507,North,Drip,2025-07-04,2025-09-29,Completed,2025-06-02 09:50:22,2025-09-13 09:50:22,email,campaign,north_drip_202507,Journey North Drip
+csxgAmLo4sbfOrLDOp,North Product Launch 202409,North,Product Launch,2024-09-02,2024-11-29,Cancelled,2024-08-01 06:33:29,2024-09-06 06:33:29,email,campaign,north_product_launch_202409,Journey North Product Launch
+e2X0kqcomdUJnOY9f4,South Product Launch 202407,South,Product Launch,2024-07-22,2024-08-04,Planned,2024-07-15 15:41:08,2024-08-27 15:41:08,email,campaign,south_product_launch_202407,Journey South Product Launch
+h52xOZ3j51Tpe37GO5,South Drip 202403,South,Drip,2024-03-08,2024-05-10,In Progress,2024-01-25 05:48:12,2024-03-05 05:48:12,email,campaign,south_drip_202403,Journey South Drip
+IYUwL0AaY0SJA04csh,South Drip 202502,South,Drip,2025-02-19,2025-05-30,In Progress,2025-01-24 06:26:26,2025-04-17 06:26:26,email,campaign,south_drip_202502,Journey South Drip
+ytG4pJS3x02ix2KNtI,North Event 202504,North,Event,2025-04-15,2025-05-02,Completed,2025-02-15 16:41:51,2025-06-15 16:41:51,email,campaign,north_event_202504,
+CkskBBGoCcwPeXILiC,North Re-engagement 202410,North,Re-engagement,2024-10-17,2024-11-20,Completed,2024-09-28 01:08:37,2024-12-13 01:08:37,email,campaign,north_re-engagement_202410,
+jUdss4gvwqwxXygFrM,East Newsletter 202406,East,Newsletter,2024-06-21,2024-09-26,In Progress,2024-05-03 15:53:26,2024-06-08 15:53:26,email,campaign,east_newsletter_202406,
+f6E6051k6nB1V1Ea2E,East Re-engagement 202510,East,Re-engagement,2025-10-08,2025-12-29,In Progress,2025-09-25 18:38:19,2025-10-29 18:38:19,email,campaign,east_re-engagement_202510,Journey East Re-engagement
+V7RpTNnnv8A4nxV0dk,West Newsletter 202405,West,Newsletter,2024-05-27,2024-08-05,Cancelled,2024-05-01 21:20:25,2024-08-04 21:20:25,email,campaign,west_newsletter_202405,Journey West Newsletter
+Jbx3uJrFJY2I5iuXnA,East Promotion 202504,East,Promotion,2025-04-15,2025-07-28,Planned,2025-02-17 14:41:50,2025-06-09 14:41:50,email,campaign,east_promotion_202504,
+nZYJNQN8JcCyXmMHef,South Product Launch 202511,South,Product Launch,2025-11-15,2025-12-31,Cancelled,2025-09-25 23:30:02,2025-09-26 23:30:02,email,campaign,south_product_launch_202511,
+RGaIqiMZa6Tp5EvRun,Central Newsletter 202401,Central,Newsletter,2024-01-03,2024-02-29,Completed,2023-12-16 04:01:55,2024-02-20 04:01:55,email,campaign,central_newsletter_202401,Journey Central Newsletter
+mUoK5i8xMFO0Y0eiWP,North Promotion 202404,North,Promotion,2024-04-21,2024-07-16,Cancelled,2024-02-26 06:43:14,2024-03-30 06:43:14,email,campaign,north_promotion_202404,Journey North Promotion
+ItcGN5MsMUe7PTLEnn,North Event 202508,North,Event,2025-08-06,2025-08-18,Cancelled,2025-07-14 14:44:04,2025-08-25 14:44:04,email,campaign,north_event_202508,Journey North Event
+dSpJys0X6Bimtnf0Lx,West Newsletter 202405,West,Newsletter,2024-05-11,2024-08-10,In Progress,2024-04-08 01:32:38,2024-07-01 01:32:38,email,campaign,west_newsletter_202405,Journey West Newsletter
+6JGarktZnDwO9yqWqb,West Newsletter 202409,West,Newsletter,2024-09-30,2024-12-15,Planned,2024-09-16 20:09:11,2025-01-14 20:09:11,email,campaign,west_newsletter_202409,Journey West Newsletter
+qyGYgImqhWuBOaj93t,East Re-engagement 202503,East,Re-engagement,2025-03-28,2025-07-19,Planned,2025-02-02 02:35:49,2025-03-08 02:35:49,email,campaign,east_re-engagement_202503,Journey East Re-engagement
+aPrBTsuGMeCtPyTm4I,East Re-engagement 202510,East,Re-engagement,2025-10-19,2025-12-31,In Progress,2025-09-19 11:35:07,2025-10-23 11:35:07,email,campaign,east_re-engagement_202510,Journey East Re-engagement
+1WtSrFE7EuGqZSxpS4,East Product Launch 202403,East,Product Launch,2024-03-30,2024-07-02,Completed,2024-03-25 18:14:16,2024-05-30 18:14:16,email,campaign,east_product_launch_202403,Journey East Product Launch
+8JvEJGzdaOgNfnvJtp,Central Event 202412,Central,Event,2024-12-01,2025-02-13,Planned,2024-10-07 04:24:05,2024-12-02 04:24:05,email,campaign,central_event_202412,Journey Central Event
+GMJggabcDbR4YRJSLR,North Drip 202401,North,Drip,2024-01-20,2024-05-17,Planned,2023-12-03 17:51:30,2023-12-07 17:51:30,email,campaign,north_drip_202401,Journey North Drip
+xxymgnZ3Kzu12XPqUV,South Newsletter 202509,South,Newsletter,2025-09-25,2025-10-09,Planned,2025-09-08 12:20:46,2025-09-29 12:20:46,email,campaign,south_newsletter_202509,Journey South Newsletter
+knerxPHZTsagyW193E,Central Re-engagement 202403,Central,Re-engagement,2024-03-19,2024-05-31,Planned,2024-01-23 10:37:26,2024-04-27 10:37:26,email,campaign,central_re-engagement_202403,Journey Central Re-engagement
+5XYwZX2HAJOb4T7dhV,East Drip 202505,East,Drip,2025-05-21,2025-08-22,Completed,2025-04-05 21:03:42,2025-07-03 21:03:42,email,campaign,east_drip_202505,Journey East Drip
+A9jzzae12xCtxuXJ6B,Central Newsletter 202511,Central,Newsletter,2025-11-29,2025-12-31,Planned,2025-10-23 06:39:29,2025-12-31 00:00:00,email,campaign,central_newsletter_202511,Journey Central Newsletter
+ROEK23iSCCfcTNYaea,Central Re-engagement 202408,Central,Re-engagement,2024-08-19,2024-09-30,In Progress,2024-07-03 14:50:12,2024-07-26 14:50:12,email,campaign,central_re-engagement_202408,Journey Central Re-engagement

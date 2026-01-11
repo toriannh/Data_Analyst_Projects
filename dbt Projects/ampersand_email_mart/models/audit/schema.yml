@@ -1,0 +1,47 @@
+version: 2
+
+models:
+  - name: audit__daily_grain_violations
+    description: >
+      Returns rows when fct_email_events_daily violates its stated grain:
+      (event_date, campaign_id, division). Expected to be empty.
+    config:
+      materialized: view
+    columns:
+      - name: event_date
+        description: "Date at daily reporting grain."
+      - name: campaign_id
+        description: "Campaign identifier."
+      - name: division
+        description: "Business division breakdown."
+      - name: n
+        description: "Count of rows for the same grain key (should never exceed 1)."
+
+  - name: audit__event_id_duplicates
+    description: >
+      Returns rows when fct_email_events contains duplicate EVENT_IDs.
+      Expected to be empty; validates incremental merge/idempotency.
+    config:
+      materialized: view
+    columns:
+      - name: event_id
+        description: "Unique event identifier."
+      - name: n
+        description: "Number of rows for this event_id (should be 1)."
+
+  - name: audit__orphan_campaigns_14d
+    description: >
+      14-day summary of orphan campaign IDs as flagged by fct_email_events_daily.
+      Makes orphan rate measurable and trendable.
+    config:
+      materialized: view
+    columns:
+      - name: event_date
+        description: "Event date."
+      - name: row_ct
+        description: "Total daily rows for that date."
+      - name: orphan_row_ct
+        description: "Rows where IS_ORPHAN_CAMPAIGN_ID is true."
+      - name: orphan_pct
+        description: "Percent of rows flagged as orphans."
+

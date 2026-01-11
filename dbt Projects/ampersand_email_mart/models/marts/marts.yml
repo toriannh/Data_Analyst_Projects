@@ -1,0 +1,59 @@
+version: 2
+
+models:
+  - name: dim_campaign
+    description: "Campaign dimension (one row per campaign_id)."
+    columns:
+      - name: campaign_id
+        data_tests:
+          - not_null
+          - unique
+
+  - name: dim_person
+    description: "Unified person dimension combining contacts and leads."
+    columns:
+      - name: person_id
+        data_tests:
+          - not_null
+      - name: person_type
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ["CONTACT", "LEAD"]
+
+  - name: fct_campaign_membership
+    description: "Campaign membership metrics by campaign_id, member_type, status."
+    columns:
+      - name: campaign_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_campaign')
+                field: campaign_id
+
+  - name: fct_email_events_daily
+    description: "Daily email performance metrics by event_date + campaign_id (+division if present)."
+    columns:
+      - name: event_date
+        data_tests:
+          - not_null
+
+  - name: fct_email_events
+    description: "Email events at event grain (one row per event_id)."
+    config:
+      materialized: incremental
+      unique_key: event_id
+      incremental_strategy: merge
+      on_schema_change: sync_all_columns
+    columns:
+      - name: event_id
+        data_tests:
+          - not_null
+          - unique
+      - name: event_type
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ["SEND","DELIVERED","OPEN","CLICK","BOUNCE","UNSUBSCRIBE"]
+

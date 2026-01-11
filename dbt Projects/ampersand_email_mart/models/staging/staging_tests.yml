@@ -1,0 +1,62 @@
+version: 2
+
+models:
+  - name: stg_campaigns
+    columns:
+      - name: campaign_id
+        tests:
+          - not_null
+          - unique
+      - name: status
+        tests:
+          - accepted_values:
+             arguments:
+              values: ["Planned", "In Progress", "Completed", "Cancelled"]
+
+  - name: stg_marketing_cloud_events
+    columns:
+      - name: event_id
+        tests:
+          - not_null
+          - unique
+      - name: event_type
+        tests:
+          - accepted_values:
+             arguments:
+              values: ["SEND","DELIVERED","OPEN","CLICK","BOUNCE","UNSUBSCRIBE"]
+
+  - name: stg_campaign_members
+    columns:
+      - name: campaign_member_id
+        tests:
+          - not_null
+          - unique
+
+      - name: campaign_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_campaigns')
+                field: campaign_id
+
+      - name: member_type
+        tests:
+          - accepted_values:
+              arguments:
+                values: ["LEAD", "CONTACT"]
+
+  - name: stg_leads
+    columns:
+      - name: lead_id
+        tests:
+          - not_null
+          - unique
+
+  - name: stg_contacts
+    columns:
+      - name: contact_id
+        tests:
+          - not_null
+          - unique
+

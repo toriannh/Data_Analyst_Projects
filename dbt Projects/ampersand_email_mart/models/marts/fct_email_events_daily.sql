@@ -1,0 +1,56 @@
+with e as (
+  select
+    cast(event_ts as date) as event_date,
+    campaign_id,
+    division,
+    event_type,
+    is_unique
+  from {{ ref('fct_email_events') }}
+),
+
+agg as (
+  select
+    event_date,
+    campaign_id,
+    division,
+
+    count_if(event_type = 'SEND') as sends,
+    count_if(event_type = 'DELIVERED') as delivered,
+    count_if(event_type = 'OPEN') as opens,
+    count_if(event_type = 'CLICK') as clicks,
+    count_if(event_type = 'BOUNCE') as bounces,
+    count_if(event_type = 'UNSUBSCRIBE') as unsubscribes,
+
+    count_if(event_type = 'OPEN' and is_unique) as opens_unique,
+    count_if(event_type = 'CLICK' and is_unique) as clicks_unique
+
+  from e
+  group by 1,2,3
+),
+
+final as (
+  select
+    a.*,
+
+    round(100 * opens / nullif(delivered,0), 2) as open_rate_pct,
+    round(100 * clicks / nullif(delivered,0), 2) as ctr_pct,
+    round(100 * bounces / nullif(sends,0), 2) as bounce_rate_pct,
+    round(100 * unsubscribes / nullif(delivered,0), 2) as unsub_rate_pct
+
+  from agg a
+)
+
+select
+  f.*,
+
+  -- add campaign context if available (left join so orphans remain visible)
+  c.campaign_name,
+  c.campaign_type,
+  c.status as campaign_status,
+
+  case when f.campaign_id is not null and c.campaign_id is null then true else false end as is_orphan_campaign_id
+
+from final f
+left join {{ ref('dim_campaign') }} c
+  on f.campaign_id = c.campaign_id
+
