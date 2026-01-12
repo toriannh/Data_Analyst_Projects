@@ -272,19 +272,16 @@ A typical dbt Cloud job for this repo includes:
 
 This repo assumes Tableau is pointed at the curated **MARTS** layer (and optionally **AUDIT**).
 
-### Dashboards (3)
+### Dashboards (2)
 
 > Names may vary depending on your Tableau workbook conventions; these are the intended functional dashboards.
 
-1. **Executive Email Performance (Daily KPIs & Trends)**
+1. **Campaign Overview (Daily KPIs & Trends)**
    **Primary sources:** `marts.fct_email_events_daily`, `marts.dim_campaign`
 
-2. **Campaign Performance & Engagement Breakdown**
+2. **Campaign Deep Dive**
    **Primary sources:** `marts.fct_email_events_daily`, `marts.dim_campaign`
    *(optionally drill to)* `marts.fct_email_events`
-
-3. **Audience & Membership Quality / Coverage**
-   **Primary sources:** `marts.fct_campaign_membership`, `marts.dim_person`, `marts.dq_*`, `audit.audit__*`
 
 ---
 
@@ -326,7 +323,4 @@ dbt deps
 dbt run-operation insert_mock_marketing_cloud_events
 dbt build --select tag:daily
 dbt docs generate
-```
-
-```
 ```
