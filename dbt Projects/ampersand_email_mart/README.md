@@ -1,4 +1,3 @@
-```markdown
 # ampersand_email_mart  
 **Email Analytics Mart (dbt + Snowflake) with Tableau Reporting**
 
@@ -132,7 +131,8 @@ Tableau should connect to the **MARTS** schema/models (and optionally **AUDIT** 
 
 This project is designed to run as a scheduled daily dbt Cloud job with three main stages:
 
-1) **Generate mock Marketing Cloud events**
+1. **Generate mock Marketing Cloud events**
+
 ```bash
 dbt run-operation insert_mock_marketing_cloud_events
 ````
